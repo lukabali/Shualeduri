@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 290px auto;
+}
+
+.sidebar{
+    background-color:  #222222;
+    height: 1080px;
+}
+
+
+span{
+    color: #FFFFFF;
+    margin: 30px;
+}
+
+.home-btn{
+    color: #FFFFFF;
+    background-color: #FF2288;
+    width: 240px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid-menu{
+    margin-top: 100px;
+}
+
+div.mid-menu li{
+    margin: 30px;
+}
+
+.bottom-menu{
+    margin-top: 100px;
+}
+
+#home-btn{
+    margin-left: -10px;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-li{
+    margin-left: 20px;
+}
+
+.search-bar{
+    height: 40px;
+    width: 350px;
+}
+
+.search-icon{
+    position: relative;
+    right: 110px;
+}
+
+.nav-text{
+    color: #FF2288;
+}
+
+.upload-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FF2288;
+    border-radius: 12px;
+    color:#FFFFFF;
+    border: 0px;
+}
+
+.profile{
+    border-radius: 28px;
+    border: 2px solid #E7E7E7;
+    background-color: #E7E7E700;
+    width: 50px;
+    height: 50px;
+}
+
+.profile-icon{
+    position: relative;
+    top: 22%;
+    left: 24%;
+}
+
+table{
+    position: relative;
+    margin-top: 50px;
+    bottom: 1000px;
+    left: 400px;
+    width: 800px;
+    height: 970px;
+}
+
+tr{
+    border-bottom: 1px solid black;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    color: #AFAFAF;
+}
+
+.pink-row{
+    color: #FF2288;
+}
+
+.footer-link{
+    color: #222222;
+    position: relative;
+    top: 500px;
+    font-size: 16px;
+}
+
+.first-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.second-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.third-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.fourth-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logos{
+    position: relative;
+    top: 700px;
+    display: flex;
+}
+
+.footer-logo{
+    margin-left: 16px;
+}
+
+footer{
+    position: relative;
+    bottom: 40%;
+}
+
+tr:hover{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+
+td:hover{
+    color: #222222;
+}
+
+tr{
+    border-bottom: 1px solid gray;
+}
